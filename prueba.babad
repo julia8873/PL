@@ -1,5 +1,3 @@
-/* Ejemplo de programa para PROCESADORES DE LENGUAJES adaptado a BABAD */
-
 entero principal ()
 {
     inicio_variables
