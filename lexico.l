@@ -1,0 +1,1 @@
+/* Especificación para Flex del analizador léxico: define las expresiones regulares y las acciones para reconocer los tokens del lenguaje. */
