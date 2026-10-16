@@ -1,0 +1,29 @@
+/* Ejemplo de programa para PROCESADORES DE LENGUAJES adaptado a BABAD */
+
+entero principal ()
+{
+    inicio_variables
+        real a1, a2 ;
+        entero a3, a4 ;
+    fin_variables
+
+    si ((a1+a2) ==€ (a1/0.5))
+    {
+        a1= a1 + 1 ;
+        a1= a1 - a2 ;
+        a1= a1 * a2 ;
+        a1= a1 / a2 ;
+        a2= a1 ^ a2 ;
+        a3= a1 && a2 ;
+        a3= a1 || a2 
+    }
+    sino
+    {
+        a1= a1 * 2 ;
+        a1= (a1*2) - (a1/a2) ;
+    }
+    escribir "hola mundo\n", (a1+a2)-8.9 ;
+    escribir a1, a2+1.0 ;
+    devolver 0;
+}
+

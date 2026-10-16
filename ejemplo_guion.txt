@@ -1,0 +1,30 @@
+/* Ejemplo de programa para PROCESADORES DE LENGUAJES */
+
+main ()
+{
+    VAR
+        float a1, a2 ;
+        int   a3, a4 ;
+    ENDVAR
+
+    if ((a1+a2) == (a1/0.5))
+    {
+        a1= a1 + 1 ;
+        a1= a1 - a2 ;
+        a1= a1 * a2 ;
+        a1= a1 / a2 ;
+        a2= a1 & a2 ;
+        a2= a1 | a2 ;
+        a2= a1 ^ a2 ;
+        a3= a1 && a2 ;
+        a3= a1 || a2 ;
+    }
+    else
+    {
+        a1= a1 * 2 ;
+        a1= (a1*2) - (a1/a2) ;
+    }
+    printf ("hola mundo\n", (a1+a2)-8.9) ;
+    printf (a1, a2+1.0 ) ;
+}
+
