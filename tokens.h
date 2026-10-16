@@ -1,1 +1,0 @@
-/* Archivo de cabecera que define las constantes numéricas de los tokens y la estructura de sus atributos semánticos. */
